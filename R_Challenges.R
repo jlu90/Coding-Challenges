@@ -65,3 +65,15 @@ is.prime <- function(n){
   
   return(TRUE)
 }
+
+## Code Wars
+sum_array <- function(a){
+  if (length(a) == 0) {
+    return(0)
+  }
+  
+  total <- 0
+  
+  for (val in a) {
+    total <- total + val
+  }
