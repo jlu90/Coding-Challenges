@@ -77,3 +77,7 @@ sum_array <- function(a){
   for (val in a) {
     total <- total + val
   }
+
+  goals <- function(la_liga_goals, copa_del_rey_goals, champions_league_goals) {
+  return(la_liga_goals + copa_del_rey_goals + champions_league_goals)
+}
