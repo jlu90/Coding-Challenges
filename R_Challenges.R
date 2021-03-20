@@ -81,3 +81,13 @@ sum_array <- function(a){
   goals <- function(la_liga_goals, copa_del_rey_goals, champions_league_goals) {
   return(la_liga_goals + copa_del_rey_goals + champions_league_goals)
 }
+
+findSmallestInt <- function(arr){
+  min_num <- Inf
+  for(num in arr){
+    if(num < min_num){
+      min_num <- num
+    }
+  }
+  return(min_num)
+}
